@@ -1,0 +1,15 @@
+import os #importing os module
+
+# Specify the path to the directory
+directory_path = '/' # Root directory
+
+# List all entries in the specified directory
+try: # Try to list directory contents
+    entries = os.listdir(directory_path) # List directory contents
+    print(f"Contents of '{directory_path}':") # Print directory path
+    for entry in entries: # Iterate through entries
+        print(entry)
+except FileNotFoundError:
+    print(f"The directory '{directory_path}' does not exist.")
+except PermissionError:
+    print(f"Permission denied to access '{directory_path}'.")
