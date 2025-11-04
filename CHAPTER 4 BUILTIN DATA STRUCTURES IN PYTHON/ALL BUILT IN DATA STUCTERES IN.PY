@@ -67,7 +67,6 @@ temp.append(40)
 coords = tuple(temp)
 print("Modified tuple:", coords)
 
-
 # ------------------------------
 # 3. SET
 # ------------------------------
@@ -127,4 +126,3 @@ Tuple      -> Ordered, Immutable, Allows Duplicates
 Set        -> Unordered, Mutable, No Duplicates
 Dictionary -> Mutable, Key-Value pairs, Keys unique
 """)
-

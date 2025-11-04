@@ -9,17 +9,7 @@ d = False # d is a Boolean variable
 e = None # e is a none type variable
 
 # https://chatgpt.com/s/t_68d4ffc9cbd081919b768f2f136a2b88 # Data types in Python
-"""
-python_data_types_easy.py
-A beginner-friendly .py file that explains Python's main data types
-Each line has an easy-to-understand comment so you can read, run, and learn.
-
-How to use:
-1. Save this file as python_data_types_easy.py
-2. Run with: python python_data_types_easy.py
-
-"""
-
+''''''
 # ---- NUMERIC TYPES ----
 # Integer (int): whole numbers without a decimal point
 age = 25                     # int: 25 is a whole number
@@ -148,12 +138,12 @@ print("\n--- Quiz answers: 1=int, 2=list, 3=None means no value, 4=No (immutable
 
 # https://chatgpt.com/s/t_68d504df305881918615f97e7f695eac Data Types Interview Questions / Answers
 
-"""
-PYTHON DATA TYPES - INTERVIEW QUESTIONS & ANSWERS
-This file contains common interview questions on Python data types
-with beginner-friendly explanations and examples.
-"""
-
+''''''
+#PYTHON DATA TYPES - INTERVIEW QUESTIONS & ANSWERS
+# This file contains common interview questions on Python data types
+# with beginner-friendly explanations and examples.
+'''
+'''
 # ============================
 # Q1. What are the built-in data types in Python?
 # ============================
@@ -287,3 +277,4 @@ fs = frozenset([1,2,3])           # frozenset (immutable)
 # In Python 3 -> only range() exists (like xrange in Python 2)
 r = range(5)
 print(list(r))  # [0,1,2,3,4]
+ 

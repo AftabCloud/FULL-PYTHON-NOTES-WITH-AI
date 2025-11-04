@@ -14,16 +14,18 @@ print(A + B) # PRINT FUNCTION DISPLAYS THE VALUE OF THE EXPRESSION A + B
 # VARIABLES IN PYTHON - BASICS
 # ==============================
 
-# A variable is like a container that stores a value.
+# A variable is like a container(place holder) that stores a data value
+# so you can use it later in your program.
 # In Python, you don’t need to declare the type of variable explicitly.
 # The type is automatically decided based on the value assigned.
-
+# types of varibles: 1.integer(numbers),2.float(decimal float),3.string(charecters).
+#4.boolean variable, 5.nontype
 # ------------------------------
 # Example 1: Integer variable
 # ------------------------------
 age = 21  
 
-# Here, 'age' is the variable name and 21 is the integer value stored in it
+# Here, 'age' is the variable name and 21 is the integer value stored in it.
 print("Age:", age)  # Prints the value stored in variable 'age'
 
 # ------------------------------
@@ -90,8 +92,13 @@ total_marks1 = 450
 # VARIABLES IN PYTHON - DEMO FILE
 # ==============================
 
-# Q1: What is a variable?
-# A variable is a named memory location used to store data.
+# Q1: What is a variabl in python?
+# A variable is like a container(place holder) that stores a data value.
+# so you can use it later in your program.
+# In Python, you don’t need to declare the type of variable explicitly.
+# The type is automatically decided based on the value assigned.
+# types of varibles: 1.integer(numbers),2.float(decimal float),3.string(characters).
+#4.boolean variable, 5.nontype.
 x = 10  # Here, 'x' is a variable storing the integer 10
 name = "Zain"  # 'name' stores a string value
 is_active = True  # 'is_active' stores a boolean value
@@ -103,7 +110,11 @@ b = "Hello"    # string
 c = 3.14       # float
 
 # Q3: Rules for variable naming
-# ✅ Valid examples
+# Variable names must start with a letter or underscore (_), not with a number.
+# 2. They can contain letters, numbers, and underscores.
+# 3. They are case-sensitive (myVar and myvar are different).
+# 4. Use meaningful names for readability.
+# Valid examples
 my_var = 100
 _var = "underscore start"
 var123 = "numbers allowed"
